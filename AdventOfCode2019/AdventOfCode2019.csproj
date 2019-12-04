@@ -11,13 +11,9 @@
     <Compile Remove="Day1B.cs" />
     <Compile Remove="Day2A.cs" />
     <Compile Remove="Day2B.cs" />
-    <Compile Remove="Day3A.cs" />
     <Compile Remove="Day3B.cs" />
+    <Compile Remove="Day4A.cs" />
     <Compile Remove="Day4B.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="input\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -27,7 +23,7 @@
     <None Update="input\02A-input.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="input\03A-input.txt">
+    <None Update="input\03-input.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
